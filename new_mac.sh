@@ -33,3 +33,6 @@ brew install python
 
 #Instal Karabiner Elements
 brew install --cask karabiner-elements
+
+#Download Karabiner configs
+curl -o ~/.config/karabiner/ "https://raw.githubusercontent.com/gabrielbonfim1/config/main/karabiner.json"
