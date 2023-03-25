@@ -42,3 +42,9 @@ brew install --cask sidenotes
 
 #Install Alfred
 brew install --cask alfred
+
+#install AppStore CLI
+brew install mas
+
+#Install Magnet From App Store
+mas install 441258766
