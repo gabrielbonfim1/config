@@ -28,9 +28,8 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 curl -o ~/.zshrc "https://raw.githubusercontent.com/gabrielbonfim1/config/main/.zshrc"
 curl -o ~/.p10k.zsh "https://raw.githubusercontent.com/gabrielbonfim1/config/main/.p10k.zsh"
 
-read -p "Do You want to install Python? " -n 1 -r
-echo    # (optional) move to a new line
-if [[ ! $REPLY =~ ^[Yy]$ ]]
-then
-    brew install python
-fi
+#Install Python
+brew install python
+
+#Instal Karabiner Elements
+brew install --cask karabiner-elements
