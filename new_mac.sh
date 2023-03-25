@@ -23,6 +23,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 #Install PowerLevel10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
-#Copy .zshrc file
+#Copy .zshrc file and 
 
 curl -o ~/.zshrc "https://raw.githubusercontent.com/gabrielbonfim1/config/main/.zshrc"
+curl -o ~/.p10k.zsh "https://raw.githubusercontent.com/gabrielbonfim1/config/main/.p10k.zsh"
