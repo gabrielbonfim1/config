@@ -39,3 +39,6 @@ curl -o ~/.config/karabiner/ "https://raw.githubusercontent.com/gabrielbonfim1/c
 
 #Install SideNotes
 brew install --cask sidenotes
+
+#Install Alfred
+brew install --cask alfred
