@@ -51,3 +51,6 @@ mas install 441258766
 
 #Install LanScan from AppStore
 mas install 472226235
+
+#Install Whatsapp Desktop
+mas install 1147396723
