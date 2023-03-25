@@ -43,6 +43,9 @@ brew install --cask sidenotes
 #Install Alfred
 brew install --cask alfred
 
+#Install VsCode
+brew install --cask visual-studio-code
+
 #install AppStore CLI
 brew install mas
 
