@@ -63,3 +63,6 @@ mas install 1147396723
 
 #Install HiddenBar from AppStore
 mas install 1452453066
+
+#Install Spark From AppStore
+mas install 1176895641
