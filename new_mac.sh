@@ -23,4 +23,4 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 
 #Copy .zshrc file
 
-wget -P ~/ "https://raw.githubusercontent.com/gabrielbonfim1/config/main/.zshrc"
+curl -o ~/.zshrc "https://raw.githubusercontent.com/gabrielbonfim1/config/main/.zshrc"
