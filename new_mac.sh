@@ -49,6 +49,9 @@ brew install --cask visual-studio-code
 #install AppStore CLI
 brew install mas
 
+#Install MacMouseFix
+brew install --cask mouse-fix
+
 #Install Magnet From AppStore
 mas install 441258766
 
