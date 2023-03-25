@@ -46,5 +46,8 @@ brew install --cask alfred
 #install AppStore CLI
 brew install mas
 
-#Install Magnet From App Store
+#Install Magnet From AppStore
 mas install 441258766
+
+#Install LanScan from AppStore
+mas install 472226235
