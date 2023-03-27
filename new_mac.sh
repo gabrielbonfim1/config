@@ -69,3 +69,6 @@ mas install 1176895641
 
 #Install DropOver from AppStore
 mas install 1355679052
+
+#Install Maccy from Homebrew
+brew install --cask maccy
