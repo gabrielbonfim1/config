@@ -3,15 +3,15 @@
 # Preparing a new MAC for development
 # Script Created by gabrielbonfim1.medium.com
 
-#INSTALL HOMEBREW
+#Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-#INSTALL iTerm2
+#Install iTerm2 from Homebrew
 brew install --cask iterm2
 
-#INSTALL ZSH
+#Install ZSH from Homebrew
 brew install zsh
 
 #Define HomeBrew's ZSH as Default Shell
@@ -28,28 +28,28 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 curl -o ~/.zshrc "https://raw.githubusercontent.com/gabrielbonfim1/config/main/.zshrc"
 curl -o ~/.p10k.zsh "https://raw.githubusercontent.com/gabrielbonfim1/config/main/.p10k.zsh"
 
-#Install Python
+#Install Python from Homebrew
 brew install python
 
-#Instal Karabiner Elements
+#Instal Karabiner Elements from Homebrew
 brew install --cask karabiner-elements
 
 #Download Karabiner configs
 curl -o ~/.config/karabiner/ "https://raw.githubusercontent.com/gabrielbonfim1/config/main/karabiner.json"
 
-#Install SideNotes
+#Install SideNotes from Homebrew
 brew install --cask sidenotes
 
-#Install Alfred
+#Install Alfred from Homebrew
 brew install --cask alfred
 
-#Install VsCode
+#Install VsCode from Homebrew
 brew install --cask visual-studio-code
 
 #install AppStore CLI
 brew install mas
 
-#Install MacMouseFix
+#Install MacMouseFix from Homebrew
 brew install --cask mouse-fix
 
 #Install Magnet From AppStore
@@ -66,3 +66,6 @@ mas install 1452453066
 
 #Install Spark From AppStore
 mas install 1176895641
+
+#Install DropOver from AppStore
+mas install 1355679052
